@@ -1,5 +1,5 @@
 import {sideNavItems} from '../../data/sideNavUtils'
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import React from 'react';
 import downArr from '../../assets/icons/chevronDown.svg';
 import wallet from '../../assets/icons/wallet.svg';
@@ -35,7 +35,7 @@ export default function SideNav(){
                         <div className="nav-footer-card display-flex">
                             <div className="">
                                 <div className="icon-card alignCenter display-flex">
-                                    <img className="wallet" src={wallet} />
+                                    <img className="wallet" src={wallet}  alt='icon'/>
                                 </div>
                             </div>
                             <div className='display-flex flex-col wallet-bal mobiledisplay-none'>

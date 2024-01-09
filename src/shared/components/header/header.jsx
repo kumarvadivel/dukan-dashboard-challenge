@@ -15,7 +15,7 @@ export default function Header(){
                     metaData.headerMetaData.headerTitle.info? 
                     <div className="header-section-1-hitw display-flex">
                     <div>
-                        <img src={help}/>
+                        <img src={help} alt="icon"/>
                     </div>
                     <div className="header-sub-title mobiledisplay-none">{metaData.headerMetaData.headerTitle.info.label}</div>
                 </div>:<></>
@@ -25,7 +25,7 @@ export default function Header(){
                 metaData.headerMetaData.showSearch?
                 <div className="search-wrapper display-flex">
                 <div className="search-ico">
-                    <img src={search}/>
+                    <img src={search} alt="icon"/>
                 </div>
                 <input className="search-inp" type="text" placeholder="Search features, tutorials, etc."/>
                 </div>:<></>
@@ -33,10 +33,10 @@ export default function Header(){
             
             <div className="display-flex icon-menu mobiledisplay-none">
                 <div>
-                    <img src={message}/>
+                    <img src={message} alt="icon"/>
                 </div>
                 <div>
-                    <img src={headerdropdown}/>
+                    <img src={headerdropdown} alt="icon"/>
                 </div>
             </div>
         </div>

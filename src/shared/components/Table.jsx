@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React  from "react";
 import search from '../../assets/icons/Search.svg';
 import triangle from '../../assets/icons/Triangle-Icon.svg';
 import info from '../../assets/icons/Info.svg';
@@ -13,7 +13,7 @@ export default function Table(props) {
                 props.config.allowSearch?
                 <div className="table-search display-flex">
                     <div className="search-icon-tbl">
-                        <img src={search}/>
+                        <img src={search} alt="icon"/>
                     </div>
                     <input type="text" className="search-inp-tbl" placeholder="Search by order ID..."></input>
                 </div>
@@ -26,14 +26,14 @@ export default function Table(props) {
                     <div>
                         <button className="br-4 btn-grop-tbl">
                             <span>Sort</span>
-                            <img src={sort}/>
+                            <img src={sort} alt="icon"/>
                         </button>
                     </div>:
                     <div></div>
                 }
                 {props.config.exportTableContents?
                     <div>
-                        <button className="br-4 btn-grop-tbl"><img src={download}/></button>
+                        <button className="br-4 btn-grop-tbl"><img src={download} alt="icon"/></button>
                     </div>
                     :
                     <div></div>}
@@ -48,7 +48,7 @@ export default function Table(props) {
                         {props.config.headers.map((head,index)=>( 
                             <th className="header-table">
                             
-                            <span>{head.label}</span>{head.rowSorting?<img className="ml-5" src={triangle}/>:head.info?<img className="ml-5" src={info} title={head.info}/>:<></>}
+                            <span>{head.label}</span>{head.rowSorting?<img className="ml-5" src={triangle}/>:head.info?<img className="ml-5" src={info} title={head.info} alt="icon"/>:<></>}
                             </th>
                             ))}
                         </tr>
@@ -72,7 +72,7 @@ export default function Table(props) {
                 <div className="display-flex button-group">
                     <div>
                         <button className="display-flex alignCenter movebtn">
-                            <img className="prevbt" src={leftarr}/>
+                            <img className="prevbt" src={leftarr} alt="icon"/>
                             <span>Previous</span>
                         </button>
                     </div>
@@ -92,7 +92,7 @@ export default function Table(props) {
                     <div>
                             <button className="display-flex alignCenter movebtn">
                                 <span>Next</span>
-                                <img src={leftarr}/>
+                                <img src={leftarr} alt="icon"/>
                             </button>
                     </div>
                 </div>
