@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 767px) {
+    .mobiledisplay-none{
+        display: none !important;
+    }
+    .search-wrapper{
+        flex-grow: 1;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .mobiledisplay-none{
+        display: none !important;
+    }
+    .search-wrapper{
+        flex-grow: 1;
+    }
+
+  }
+  @media only screen and (min-width: 768px) {
+    
+  }
