@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e53e4d2.css",
+    "main.js": "/static/js/main.3e48c6ea.js",
+    "static/js/651.c3efd52b.chunk.js": "/static/js/651.c3efd52b.chunk.js",
+    "static/media/discounts.svg": "/static/media/discounts.307628694e774dc38f9d.svg",
+    "static/media/audience.svg": "/static/media/audience.d7ee13ed54f0e989c9f7.svg",
+    "static/media/orders.svg": "/static/media/orders.bb99b2d3008ac66b1a25.svg",
+    "static/media/Help.svg": "/static/media/Help.57db6deb45ac894d4df8cc0c2df521f4.svg",
+    "static/media/delivery.svg": "/static/media/delivery.5f925b45b3ddc68dbfeb.svg",
+    "static/media/home.svg": "/static/media/home.e21667d973dcdef544a5.svg",
+    "static/media/apperance.svg": "/static/media/apperance.dc1cf019d0fbf3c0fd66.svg",
+    "static/media/Sort.svg": "/static/media/Sort.d2021628b3f4359215dfea39b2ded650.svg",
+    "static/media/analytics.svg": "/static/media/analytics.8598dbf060b02db5d2f1.svg",
+    "static/media/Menumenu.svg": "/static/media/Menumenu.ac3ddc82c422c04b9683.svg",
+    "static/media/meassge.svg": "/static/media/meassge.52bcd8953359baa3cd3ae07a2208352e.svg",
+    "static/media/marketing.svg": "/static/media/marketing.6f619a4dc318fad6c0a9.svg",
+    "static/media/download.svg": "/static/media/download.db76e576832426afd08335791744c348.svg",
+    "static/media/Info.svg": "/static/media/Info.a07de50439297ccae78bed79fec35de8.svg",
+    "static/media/Group.svg": "/static/media/Group.5907b06d08731dae2903.svg",
+    "static/media/products.svg": "/static/media/products.12e9dbf06cb045d01f86.svg",
+    "static/media/wallet.svg": "/static/media/wallet.3ea53a98d5210266136c1e0c60252b88.svg",
+    "static/media/tools.svg": "/static/media/tools.3677ccec4d0a766e0604.svg",
+    "static/media/plugins.svg": "/static/media/plugins.d783bc0da19fdb10792b.svg",
+    "static/media/Search.svg": "/static/media/Search.d122da14f144a5f73f4423007762f8db.svg",
+    "static/media/Triangle-Icon.svg": "/static/media/Triangle-Icon.708ff7609fdcbf429936112058288b4e.svg",
+    "index.html": "/index.html",
+    "static/media/payments.svg": "/static/media/payments.f14bcc2394b933226350.svg",
+    "static/media/Menu.svg": "/static/media/Menu.a6dd8565715cf9f9f2d33d31ce05b960.svg",
+    "static/media/Chevron Right.svg": "/static/media/Chevron Right.b680e4a3f11b4107d4f876ce045e0bf6.svg",
+    "static/media/chevronDown.svg": "/static/media/chevronDown.3d403d3388a2b8c8fe64ae679f03d339.svg",
+    "main.1e53e4d2.css.map": "/static/css/main.1e53e4d2.css.map",
+    "main.3e48c6ea.js.map": "/static/js/main.3e48c6ea.js.map",
+    "651.c3efd52b.chunk.js.map": "/static/js/651.c3efd52b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e53e4d2.css",
+    "static/js/main.3e48c6ea.js"
+  ]
+}
